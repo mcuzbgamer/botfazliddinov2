@@ -3,7 +3,7 @@ const mineflayer = require('mineflayer')
 const bot = mineflayer.createBot({
  host:'ir.skyblock.uz',
  port: 25566,
- username: 'botFazliddinov_7'
+ username: 'botFazliddinov_9'
 })
 bot.on('messagestr', (message) => {
   if(message.includes("/register"))
@@ -47,8 +47,8 @@ bot.once("spawn", () => {
 })
 bot.on('chat', (username, message) => {
     if (username === 'FamousTrain1733') {
-    if (message.indexOf('7') !== -1) {
-            var replacement = "7",
+    if (message.indexOf('9') !== -1) {
+            var replacement = "9",
                 toReplace = "",
                 str = message
 
