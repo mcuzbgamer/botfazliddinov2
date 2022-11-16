@@ -47,8 +47,8 @@ bot.once("spawn", () => {
 })
 bot.on('chat', (username, message) => {
     if (username === 'FamousTrain1733') {
-    if (message.indexOf('9') !== -1) {
-            var replacement = "9",
+    if (message.indexOf('2') !== -1) {
+            var replacement = "2",
                 toReplace = "",
                 str = message
 
